@@ -1,9 +1,14 @@
 Node-Dash-Button-Webtasks
 ===================
 
-Simple demo showcasing IoT and **webtask** integration. 
+Here is how I am using [Amazon Dash Button](http://www.amazon.com/oc/dash-button) as panic button. 
 
+This setup utilize backend less [webtask](https://webtask.io/) cloud platform to securely send text messages when button is pressed. 
 [Amazon Dash Button](http://www.amazon.com/oc/dash-button) triggers [webtask](https://webtask.io/) to send text message when button is pressed.
+
+![amazon dash button](./amazon-dash-button.png)
+
+PS: You need to install `Scapy tool` on Mac or Raspberry PI to run the python script. 
 
 ```bash 
 npm install wt-cli -g
