@@ -8,7 +8,7 @@ This setup utilize backend less [webtask](https://webtask.io/) cloud platform to
 
 ![amazon dash button](./amazon-dash-button.png)
 
-PS: You need to install `Scapy tool` on Mac or Raspberry PI to run the python script. 
+PS: You need to install `libpcap-dev` on Mac or Raspberry PI to run the python script. 
 
 ```bash 
 npm install wt-cli -g
